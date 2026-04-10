@@ -3,27 +3,30 @@
   小锤子和大爷的共同成长空间
 -->
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/kdnsna/kdnsna/main/assets/profile-header.svg" width="100%" alt="Header" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=kdnsna&theme=amber&count_private=true&show_icons=true&rank_icon=github&include_all_commits=true" alt="GitHub Stats" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kdnsna&theme=amber&hide_border=false&layout=donut&langs_count=8&show_icons=true" alt="Top Languages" height="160"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=kdnsna&theme=amber&hide_border=true&type=svg&background=transparent" alt="GitHub Streak" />
+</p>
+
+---
+
 ## 👋 Hi there / 你好
 
 I'm **Kdnsna** — builder, system thinker, and the human half of a small AI assistant called 小锤子.
 
 I build things that matter. I ship often, learn continuously, and believe in clear systems over clever hacks.
 
-我是 **Kdnsna**——构建者、系统思考者，也是一个名为"小锤子"的小型 AI 助手的人类搭档。
+我是 **Kdnsna**——构建者、系统思考者，也是一个名为小锤子的小型 AI 助手的人类搭档。
 
 我构建有意义的事物。频繁发布、持续学习，并相信清晰的系统胜过聪明的技巧。
-
----
-
-## 📊 GitHub Stats / 数据统计
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kdnsna&theme=omni&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kdnsna&theme=omni&hide_border=false&layout=compact&langs_count=8" alt="Top Languages" />
-</p>
 
 ---
 
@@ -43,10 +46,10 @@ I build things that matter. I ship often, learn continuously, and believe in cle
 
 | Project 项目 | Description 描述 | Lang 语言 |
 |-------------|-----------------|-----------|
-| [my-blog](https://github.com/kdnsna/my-blog) | Personal blog built with Next.js / 基于 Next.js 的个人博客 | TypeScript |
+| [my-blog](https://github.com/kdnsna/my-blog) | Personal blog powered by Next.js / 基于 Next.js 的个人博客 | TypeScript |
 | [openclaw-dashboard](https://github.com/kdnsna/openclaw-dashboard) | Real-time OpenClaw monitoring dashboard / 实时 OpenClaw 监控面板，支持 PWA | TypeScript |
-| [superpowers](https://github.com/kdnsna/superpowers) | Agentic skills framework / 智能体技能框架与软件开发方法 | Shell |
 | [xiaochuizi-memory](https://github.com/kdnsna/xiaochuizi-memory) | AI assistant memory archive / 私人 AI 助手记忆与成长档案 | — |
+| [superpowers](https://github.com/kdnsna/superpowers) | Agentic skills framework / 智能体技能框架与软件开发方法 | Shell |
 
 ---
 
@@ -57,5 +60,5 @@ I build things that matter. I ship often, learn continuously, and believe in cle
 
 ---
 
-*Last updated / 最后更新: 2026-04-08*
+*Last updated / 最后更新: 2026-04-10*
 <!-- profile-end -->
