@@ -53,12 +53,12 @@ I build things that matter. I ship often, learn continuously, and believe in cle
 
 ## 📦 Featured Projects / 项目展示
 
-| Project 项目 | Description 描述 | Stars | Lang |
-|-------------|-----------------|-------|------|
-| [my-blog](https://github.com/kdnsna/my-blog) | Personal blog powered by Next.js / 基于 Next.js 的个人博客 | ![Stars](https://img.shields.io/github/stars/kdnsna/my-blog?style=flat) | TypeScript |
-| [openclaw-dashboard](https://github.com/kdnsna/openclaw-dashboard) | Real-time OpenClaw monitoring dashboard / 实时 OpenClaw 监控面板，支持 PWA | ![Stars](https://img.shields.io/github/stars/kdnsna/openclaw-dashboard?style=flat) | TypeScript |
-| [xiaochuizi-memory](https://github.com/kdnsna/xiaochuizi-memory) | AI assistant memory archive / 私人 AI 助手记忆与成长档案 | ![Stars](https://img.shields.io/github/stars/kdnsna/xiaochuizi-memory?style=flat) | — |
-| [superpowers](https://github.com/kdnsna/superpowers) | Agentic skills framework / 智能体技能框架与软件开发方法 | ![Stars](https://img.shields.io/github/stars/kdnsna/superpowers?style=flat) | Shell |
+| Project 项目 | Description 描述 | Lang |
+|-------------|-----------------|------|
+| [my-blog](https://github.com/kdnsna/my-blog) | Personal blog powered by Next.js / 基于 Next.js 的个人博客 | TypeScript |
+| [openclaw-dashboard](https://github.com/kdnsna/openclaw-dashboard) | Real-time OpenClaw monitoring dashboard / 实时 OpenClaw 监控面板，支持 PWA | TypeScript |
+| [xiaochuizi-memory](https://github.com/kdnsna/xiaochuizi-memory) | AI assistant memory archive / 私人 AI 助手记忆与成长档案 | — |
+| [superpowers](https://github.com/kdnsna/superpowers) | Agentic skills framework / 智能体技能框架与软件开发方法 | Shell |
 
 ---
 
