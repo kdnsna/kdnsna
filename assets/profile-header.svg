@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f1a"/>
+      <stop offset="50%" style="stop-color:#1a1209"/>
+      <stop offset="100%" style="stop-color:#0f0f1a"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#f59e0b;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:0"/>
+    </linearGradient>
+    <filter id="glow-filter">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bg)" rx="12"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.06">
+    <line x1="0" y1="60" x2="1200" y2="60" stroke="#f59e0b" stroke-width="0.5"/>
+    <line x1="0" y1="120" x2="1200" y2="120" stroke="#f59e0b" stroke-width="0.5"/>
+    <line x1="0" y1="180" x2="1200" y2="180" stroke="#f59e0b" stroke-width="0.5"/>
+    <line x1="0" y1="240" x2="1200" y2="240" stroke="#f59e0b" stroke-width="0.5"/>
+    <line x1="200" y1="0" x2="200" y2="300" stroke="#f59e0b" stroke-width="0.5"/>
+    <line x1="400" y1="0" x2="400" y2="300" stroke="#f59e0b" stroke-width="0.5"/>
+    <line x1="600" y1="0" x2="600" y2="300" stroke="#f59e0b" stroke-width="0.5"/>
+    <line x1="800" y1="0" x2="800" y2="300" stroke="#f59e0b" stroke-width="0.5"/>
+    <line x1="1000" y1="0" x2="1000" y2="300" stroke="#f59e0b" stroke-width="0.5"/>
+  </g>
+
+  <!-- Glowing accent line -->
+  <rect x="0" y="148" width="1200" height="2" fill="url(#glow)" opacity="0.4"/>
+
+  <!-- Emoji icons - left cluster -->
+  <text x="80" y="155" font-size="48" text-anchor="middle" filter="url(#glow-filter)">🤖</text>
+  <text x="80" y="220" font-size="22" text-anchor="middle" fill="#f59e0b" opacity="0.7">AI Powered</text>
+
+  <!-- Center content -->
+  <text x="600" y="100" font-size="42" font-weight="bold" text-anchor="middle" fill="#fef3c7" font-family="system-ui, sans-serif">kdnsna</text>
+  <text x="600" y="148" font-size="18" text-anchor="middle" fill="#f59e0b" font-family="monospace">// github profile</text>
+
+  <!-- Decorative dots -->
+  <circle cx="340" cy="100" r="3" fill="#f59e0b" opacity="0.5"/>
+  <circle cx="860" cy="100" r="3" fill="#f59e0b" opacity="0.5"/>
+  <circle cx="320" cy="100" r="2" fill="#f59e0b" opacity="0.3"/>
+  <circle cx="880" cy="100" r="2" fill="#f59e0b" opacity="0.3"/>
+
+  <!-- Right cluster -->
+  <text x="1120" y="155" font-size="48" text-anchor="middle" filter="url(#glow-filter)">🔨</text>
+  <text x="1120" y="220" font-size="22" text-anchor="middle" fill="#f59e0b" opacity="0.7">小锤子</text>
+
+  <!-- Bottom decorative line -->
+  <rect x="100" y="260" width="1000" height="0.5" fill="#f59e0b" opacity="0.2"/>
+</svg>
