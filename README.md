@@ -7,11 +7,20 @@
   <img src="https://raw.githubusercontent.com/kdnsna/kdnsna/main/assets/profile-header.svg" width="100%" alt="Header" />
 </p>
 
+<!-- Stats Badges -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kdnsna&theme=amber&count_private=true&show_icons=true&rank_icon=github&include_all_commits=true" alt="GitHub Stats" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kdnsna&theme=amber&hide_border=false&layout=donut&langs_count=8&show_icons=true" alt="Top Languages" height="160"/>
+
+  <img src="https://img.shields.io/github/followers/kdnsna?style=for-the-badge&color=f59e0b&labelColor=1a1209&logo=github" alt="Followers" />
+
+  <img src="https://img.shields.io/badge/repos-4-blue?style=for-the-badge&color=3b82f6&labelColor=1a1209" alt="Repos" />
+
+  <img src="https://img.shields.io/github/stars/kdnsna?style=for-the-badge&color=10b981&labelColor=1a1209&logo=star" alt="Stars" />
+
+  <img src="https://img.shields.io/badge/sponsors-0-fc5185?style=for-the-badge&color=fc5185&labelColor=1a1209&logo=heart" alt="Sponsors" />
+
 </p>
 
+<!-- Streak -->
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=kdnsna&theme=amber&hide_border=true&type=svg&background=transparent" alt="GitHub Streak" />
 </p>
@@ -44,12 +53,12 @@ I build things that matter. I ship often, learn continuously, and believe in cle
 
 ## 📦 Featured Projects / 项目展示
 
-| Project 项目 | Description 描述 | Lang 语言 |
-|-------------|-----------------|-----------|
-| [my-blog](https://github.com/kdnsna/my-blog) | Personal blog powered by Next.js / 基于 Next.js 的个人博客 | TypeScript |
-| [openclaw-dashboard](https://github.com/kdnsna/openclaw-dashboard) | Real-time OpenClaw monitoring dashboard / 实时 OpenClaw 监控面板，支持 PWA | TypeScript |
-| [xiaochuizi-memory](https://github.com/kdnsna/xiaochuizi-memory) | AI assistant memory archive / 私人 AI 助手记忆与成长档案 | — |
-| [superpowers](https://github.com/kdnsna/superpowers) | Agentic skills framework / 智能体技能框架与软件开发方法 | Shell |
+| Project 项目 | Description 描述 | Stars | Lang |
+|-------------|-----------------|-------|------|
+| [my-blog](https://github.com/kdnsna/my-blog) | Personal blog powered by Next.js / 基于 Next.js 的个人博客 | ![Stars](https://img.shields.io/github/stars/kdnsna/my-blog?style=flat) | TypeScript |
+| [openclaw-dashboard](https://github.com/kdnsna/openclaw-dashboard) | Real-time OpenClaw monitoring dashboard / 实时 OpenClaw 监控面板，支持 PWA | ![Stars](https://img.shields.io/github/stars/kdnsna/openclaw-dashboard?style=flat) | TypeScript |
+| [xiaochuizi-memory](https://github.com/kdnsna/xiaochuizi-memory) | AI assistant memory archive / 私人 AI 助手记忆与成长档案 | ![Stars](https://img.shields.io/github/stars/kdnsna/xiaochuizi-memory?style=flat) | — |
+| [superpowers](https://github.com/kdnsna/superpowers) | Agentic skills framework / 智能体技能框架与软件开发方法 | ![Stars](https://img.shields.io/github/stars/kdnsna/superpowers?style=flat) | Shell |
 
 ---
 
