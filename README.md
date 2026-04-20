@@ -9,20 +9,14 @@
 
 <!-- Stats Badges -->
 <p align="center">
-
   <img src="https://img.shields.io/github/followers/kdnsna?style=for-the-badge&color=f59e0b&labelColor=1a1209&logo=github" alt="Followers" />
-
-  <img src="https://img.shields.io/badge/repos-4-blue?style=for-the-badge&color=3b82f6&labelColor=1a1209" alt="Repos" />
-
+  <img src="https://img.shields.io/badge/repos-8-3b82f6?style=for-the-badge&color=3b82f6&labelColor=1a1209" alt="Repos" />
   <img src="https://img.shields.io/github/stars/kdnsna?style=for-the-badge&color=10b981&labelColor=1a1209&logo=star" alt="Stars" />
-
-  <img src="https://img.shields.io/badge/sponsors-0-fc5185?style=for-the-badge&color=fc5185&labelColor=1a1209&logo=heart" alt="Sponsors" />
-
 </p>
 
 <!-- Streak -->
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=kdnsna&theme=amber&hide_border=true&type=svg&background=transparent" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=kdnsna&theme=dark&hide_border=true&background=1a1209&stroke=f59e0b&ring=f59e0b&fire=f59e0b&currStreakLabel=f59e0b" alt="GitHub Streak" />
 </p>
 
 ---
@@ -43,7 +37,7 @@ I build things that matter. I ship often, learn continuously, and believe in cle
 
 **Languages / 语言:** TypeScript, JavaScript, Python, Shell, Vue/Nuxt
 
-**AI & Agents / AI 与智能体:** OpenClaw, Claude, Codex, WorkBuddy, custom Agent workflows, MCP servers
+**AI & Agents / AI 与智能体:** OpenClaw, Claude, Hermes, WorkBuddy, custom Agent workflows, MCP servers
 
 **Infrastructure / 基础设施:** Vercel, GitHub Actions, iCloud, local macOS automation
 
@@ -53,12 +47,13 @@ I build things that matter. I ship often, learn continuously, and believe in cle
 
 ## 📦 Featured Projects / 项目展示
 
-| Project 项目 | Description 描述 | Lang |
-|-------------|-----------------|------|
-| [my-blog](https://github.com/kdnsna/my-blog) | Personal blog powered by Next.js / 基于 Next.js 的个人博客 | TypeScript |
-| [openclaw-dashboard](https://github.com/kdnsna/openclaw-dashboard) | Real-time OpenClaw monitoring dashboard / 实时 OpenClaw 监控面板，支持 PWA | TypeScript |
-| [xiaochuizi-memory](https://github.com/kdnsna/xiaochuizi-memory) | AI assistant memory archive / 私人 AI 助手记忆与成长档案 | — |
-| [superpowers](https://github.com/kdnsna/superpowers) | Agentic skills framework / 智能体技能框架与软件开发方法 | Shell |
+| Project 项目 | Description 描述 | Stars | Lang |
+|-------------|-----------------|:-----:|------|
+| [my-blog](https://github.com/kdnsna/my-blog) | 个人博客网站 - 大爷和小锤子的数字空间 | ⭐ | TypeScript |
+| [openclaw-dashboard](https://github.com/kdnsna/openclaw-dashboard) | OpenClaw 实时监控面板 - 支持 PWA 移动端 | ⭐⭐ | TypeScript |
+| [superpowers](https://github.com/kdnsna/superpowers) | 智能体技能框架与软件开发方法论 | — | Shell |
+| [SunCodexClaw](https://github.com/kdnsna/SunCodexClaw) | CodexClaw - AI coding agent | — | — |
+| [awesome-design-md-](https://github.com/kdnsna/awesome-design-md-) | DESIGN.md 文件集合，让 coding agents 构建匹配的 UI | — | — |
 
 ---
 
@@ -69,5 +64,5 @@ I build things that matter. I ship often, learn continuously, and believe in cle
 
 ---
 
-*Last updated / 最后更新: 2026-04-10*
+*Last updated / 最后更新: 2026-04-20*
 <!-- profile-end -->

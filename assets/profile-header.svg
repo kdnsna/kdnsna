@@ -1,17 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
   <defs>
+    <!-- 背景渐变 - 与博客色系统一 -->
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0f0f1a"/>
-      <stop offset="50%" style="stop-color:#1a1209"/>
-      <stop offset="100%" style="stop-color:#0f0f1a"/>
+      <stop offset="0%" style="stop-color:#0D0D0D"/>
+      <stop offset="50%" style="stop-color:#141414"/>
+      <stop offset="100%" style="stop-color:#1C1C1E"/>
     </linearGradient>
+    
+    <!-- 琥珀金发光线 -->
     <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:0"/>
-      <stop offset="50%" style="stop-color:#f59e0b;stop-opacity:0.6"/>
-      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:0"/>
+      <stop offset="0%" style="stop-color:#E8B96A;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#E8B96A;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#E8B96A;stop-opacity:0"/>
     </linearGradient>
+    
+    <!-- 锤蓝点缀 -->
+    <linearGradient id="blue-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4A90D9;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#4A90D9;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#4A90D9;stop-opacity:0"/>
+    </linearGradient>
+    
     <filter id="glow-filter">
-      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -23,39 +34,40 @@
   <rect width="1200" height="300" fill="url(#bg)" rx="12"/>
 
   <!-- Subtle grid pattern -->
-  <g opacity="0.06">
-    <line x1="0" y1="60" x2="1200" y2="60" stroke="#f59e0b" stroke-width="0.5"/>
-    <line x1="0" y1="120" x2="1200" y2="120" stroke="#f59e0b" stroke-width="0.5"/>
-    <line x1="0" y1="180" x2="1200" y2="180" stroke="#f59e0b" stroke-width="0.5"/>
-    <line x1="0" y1="240" x2="1200" y2="240" stroke="#f59e0b" stroke-width="0.5"/>
-    <line x1="200" y1="0" x2="200" y2="300" stroke="#f59e0b" stroke-width="0.5"/>
-    <line x1="400" y1="0" x2="400" y2="300" stroke="#f59e0b" stroke-width="0.5"/>
-    <line x1="600" y1="0" x2="600" y2="300" stroke="#f59e0b" stroke-width="0.5"/>
-    <line x1="800" y1="0" x2="800" y2="300" stroke="#f59e0b" stroke-width="0.5"/>
-    <line x1="1000" y1="0" x2="1000" y2="300" stroke="#f59e0b" stroke-width="0.5"/>
+  <g opacity="0.04">
+    <line x1="0" y1="60" x2="1200" y2="60" stroke="#E8B96A" stroke-width="0.5"/>
+    <line x1="0" y1="120" x2="1200" y2="120" stroke="#E8B96A" stroke-width="0.5"/>
+    <line x1="0" y1="180" x2="1200" y2="180" stroke="#E8B96A" stroke-width="0.5"/>
+    <line x1="0" y1="240" x2="1200" y2="240" stroke="#E8B96A" stroke-width="0.5"/>
+    <line x1="200" y1="0" x2="200" y2="300" stroke="#E8B96A" stroke-width="0.5"/>
+    <line x1="400" y1="0" x2="400" y2="300" stroke="#E8B96A" stroke-width="0.5"/>
+    <line x1="600" y1="0" x2="600" y2="300" stroke="#E8B96A" stroke-width="0.5"/>
+    <line x1="800" y1="0" x2="800" y2="300" stroke="#E8B96A" stroke-width="0.5"/>
+    <line x1="1000" y1="0" x2="1000" y2="300" stroke="#E8B96A" stroke-width="0.5"/>
   </g>
 
-  <!-- Glowing accent line -->
-  <rect x="0" y="148" width="1200" height="2" fill="url(#glow)" opacity="0.4"/>
+  <!-- Glowing accent lines -->
+  <rect x="0" y="148" width="1200" height="2" fill="url(#glow)" opacity="0.5"/>
+  <rect x="0" y="152" width="1200" height="1" fill="url(#blue-accent)" opacity="0.3"/>
 
-  <!-- Emoji icons - left cluster -->
+  <!-- Left cluster - AI -->
   <text x="80" y="155" font-size="48" text-anchor="middle" filter="url(#glow-filter)">🤖</text>
-  <text x="80" y="220" font-size="22" text-anchor="middle" fill="#f59e0b" opacity="0.7">AI Powered</text>
+  <text x="80" y="220" font-size="20" text-anchor="middle" fill="#E8B96A" opacity="0.8" font-family="system-ui, sans-serif">AI Powered</text>
 
   <!-- Center content -->
-  <text x="600" y="100" font-size="42" font-weight="bold" text-anchor="middle" fill="#fef3c7" font-family="system-ui, sans-serif">kdnsna</text>
-  <text x="600" y="148" font-size="18" text-anchor="middle" fill="#f59e0b" font-family="monospace">// github profile</text>
+  <text x="600" y="100" font-size="48" font-weight="bold" text-anchor="middle" fill="#F0EDE6" font-family="system-ui, sans-serif">kdnsna</text>
+  <text x="600" y="148" font-size="16" text-anchor="middle" fill="#4A90D9" font-family="monospace" opacity="0.9">// builder · system thinker · AI companion</text>
 
   <!-- Decorative dots -->
-  <circle cx="340" cy="100" r="3" fill="#f59e0b" opacity="0.5"/>
-  <circle cx="860" cy="100" r="3" fill="#f59e0b" opacity="0.5"/>
-  <circle cx="320" cy="100" r="2" fill="#f59e0b" opacity="0.3"/>
-  <circle cx="880" cy="100" r="2" fill="#f59e0b" opacity="0.3"/>
+  <circle cx="340" cy="100" r="3" fill="#E8B96A" opacity="0.6"/>
+  <circle cx="860" cy="100" r="3" fill="#E8B96A" opacity="0.6"/>
+  <circle cx="320" cy="100" r="2" fill="#4A90D9" opacity="0.4"/>
+  <circle cx="880" cy="100" r="2" fill="#4A90D9" opacity="0.4"/>
 
-  <!-- Right cluster -->
+  <!-- Right cluster - 小锤子 -->
   <text x="1120" y="155" font-size="48" text-anchor="middle" filter="url(#glow-filter)">🔨</text>
-  <text x="1120" y="220" font-size="22" text-anchor="middle" fill="#f59e0b" opacity="0.7">小锤子</text>
+  <text x="1120" y="220" font-size="20" text-anchor="middle" fill="#E8B96A" opacity="0.8" font-family="system-ui, sans-serif">小锤子</text>
 
   <!-- Bottom decorative line -->
-  <rect x="100" y="260" width="1000" height="0.5" fill="#f59e0b" opacity="0.2"/>
+  <rect x="100" y="260" width="1000" height="0.5" fill="#E8B96A" opacity="0.3"/>
 </svg>
