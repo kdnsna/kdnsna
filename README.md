@@ -1,68 +1,90 @@
 <!--
-  🔨 kdnsna / GitHub Profile
+  kdnsna / GitHub Profile
   小锤子和大爷的共同成长空间
 -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/kdnsna/kdnsna/main/assets/profile-header.svg" width="100%" alt="Header" />
+  <img src="assets/profile-header.png" width="100%" alt="kdnsna profile header: AI tooling, personal systems, and useful products" />
 </p>
 
-<!-- Stats Badges -->
 <p align="center">
-  <img src="https://img.shields.io/github/followers/kdnsna?style=for-the-badge&color=f59e0b&labelColor=1a1209&logo=github" alt="Followers" />
-  <img src="https://img.shields.io/badge/repos-8-3b82f6?style=for-the-badge&color=3b82f6&labelColor=1a1209" alt="Repos" />
-  <img src="https://img.shields.io/github/stars/kdnsna?style=for-the-badge&color=10b981&labelColor=1a1209&logo=star" alt="Stars" />
+  <img src="https://img.shields.io/badge/AI%20tooling-agent%20workflows-F59E0B?style=for-the-badge&labelColor=0B0F14" alt="AI tooling: agent workflows" />
+  <img src="https://img.shields.io/badge/personal%20systems-memory%20%2B%20automation-0EA5E9?style=for-the-badge&labelColor=0B0F14" alt="Personal systems: memory and automation" />
+  <img src="https://img.shields.io/badge/public%20repos-12-22C55E?style=for-the-badge&labelColor=0B0F14" alt="Public repositories: 12" />
+  <img src="https://img.shields.io/badge/ship%20often-calmly-EAB308?style=for-the-badge&labelColor=0B0F14" alt="Ship often, calmly" />
 </p>
 
-<!-- Streak -->
+<h3 align="center">把 AI、记忆系统和实用工具做成能长期陪跑的东西。</h3>
+
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=kdnsna&theme=dark&hide_border=true&background=1a1209&stroke=f59e0b&ring=f59e0b&fire=f59e0b&currStreakLabel=f59e0b" alt="GitHub Streak" />
+  <a href="https://kdnsna.cn">Blog</a>
+  ·
+  <a href="https://github.com/kdnsna?tab=repositories">Repositories</a>
+  ·
+  <a href="https://github.com/kdnsna/kdnsna">Profile README</a>
 </p>
 
 ---
 
-## 👋 Hi there / 你好
+## About
 
-I'm **Kdnsna** — builder, system thinker, and the human half of a small AI assistant called 小锤子.
+I'm **Kdnsna**, a builder who likes turning fuzzy ideas into tools that can actually stay useful.
 
-I build things that matter. I ship often, learn continuously, and believe in clear systems over clever hacks.
+Most of my work sits around three themes:
 
-我是 **Kdnsna**——构建者、系统思考者，也是一个名为小锤子的小型 AI 助手的人类搭档。
+- **AI tooling**: agents, skills, workflow glue, and better ways to work with coding assistants
+- **Personal systems**: memory, notes, automation, and long-running companion workflows
+- **Useful products**: small but complete tools, from dashboards to wedding navigation to presentation engines
 
-我构建有意义的事物。频繁发布、持续学习，并相信清晰的系统胜过聪明的技巧。
-
----
-
-## 🛠️ Tech Stack / 技术栈
-
-**Languages / 语言:** TypeScript, JavaScript, Python, Shell, Vue/Nuxt
-
-**AI & Agents / AI 与智能体:** OpenClaw, Claude, Hermes, WorkBuddy, custom Agent workflows, MCP servers
-
-**Infrastructure / 基础设施:** Vercel, GitHub Actions, iCloud, local macOS automation
-
-**Interests / 兴趣领域:** AI tooling, personal knowledge systems, developer experience, automation
+我是 **Kdnsna**。我喜欢把模糊想法拆成清晰系统，再一点点做成能长期使用的工具。<br>
+这里也是「小锤子 & 大爷」一起长出来的工作台。
 
 ---
 
-## 📦 Featured Projects / 项目展示
+## Featured Builds
 
-| Project 项目 | Description 描述 | Stars | Lang |
-|-------------|-----------------|:-----:|------|
-| [my-blog](https://github.com/kdnsna/my-blog) | 个人博客网站 - 大爷和小锤子的数字空间 | ⭐ | TypeScript |
-| [openclaw-dashboard](https://github.com/kdnsna/openclaw-dashboard) | OpenClaw 实时监控面板 - 支持 PWA 移动端 | ⭐⭐ | TypeScript |
-| [superpowers](https://github.com/kdnsna/superpowers) | 智能体技能框架与软件开发方法论 | — | Shell |
-| [SunCodexClaw](https://github.com/kdnsna/SunCodexClaw) | CodexClaw - AI coding agent | — | — |
-| [awesome-design-md-](https://github.com/kdnsna/awesome-design-md-) | DESIGN.md 文件集合，让 coding agents 构建匹配的 UI | — | — |
-
----
-
-## 🔗 Find Me / 找到我
-
-- 🌐 **Blog / 博客:** [kdnsna.cn](https://kdnsna.cn)
-- 🤖 **AI Companion / AI 伙伴:** 小锤子 (WorkBuddy/OpenClaw powered)
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [ultimate-ppt-master-skill](https://github.com/kdnsna/ultimate-ppt-master-skill) | Editable PPTX and magazine-style web deck generation from source material | Python |
+| [wedding-navigator](https://github.com/kdnsna/wedding-navigator) | A wedding-day action guide with invitation, routes, RSVP, schedule, and blessing wall | Vue / uni-app |
+| [my-blog](https://github.com/kdnsna/my-blog) | The digital home for notes, projects, and the ongoing human + AI companion story | TypeScript |
+| [openclaw-dashboard](https://github.com/kdnsna/openclaw-dashboard) | Real-time dashboard for sessions, usage, cost tracking, and mobile monitoring | TypeScript |
+| [project-20260421-195043](https://github.com/kdnsna/project-20260421-195043) | A focused certificate-of-deposit calculator experience | TypeScript |
+| [cd-calculator](https://github.com/kdnsna/cd-calculator) | Lightweight static calculator experiment | HTML |
 
 ---
 
-*Last updated / 最后更新: 2026-04-20*
+## Toolbox
+
+```text
+Languages      TypeScript / JavaScript / Python / Shell / Vue
+AI & agents    Codex / Claude / OpenClaw / WorkBuddy / MCP / custom skill workflows
+Frontend       Vue / Nuxt / Vite / uni-app / responsive product UI
+Automation     GitHub Actions / macOS local workflows / CLI-first utilities
+Interests      memory systems / developer experience / personal knowledge tools
+```
+
+---
+
+## Current Direction
+
+- Building AI workflows that remember context, survive real daily use, and stay pleasant to operate
+- Turning presentation, design, and delivery work into reusable skills instead of one-off labor
+- Keeping personal software small, clear, and shippable
+- Exploring companion-style systems where tools feel less like commands and more like capable collaborators
+
+---
+
+## Find Me
+
+- Blog: [kdnsna.cn](https://kdnsna.cn)
+- GitHub: [@kdnsna](https://github.com/kdnsna)
+- Companion workspace: 小锤子, WorkBuddy, OpenClaw, and a growing pile of careful experiments
+
+---
+
+<p align="center">
+  <sub>Last refreshed: 2026-05-20</sub>
+</p>
+
 <!-- profile-end -->
