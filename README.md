@@ -1,90 +1,96 @@
 <!--
   kdnsna / GitHub Profile
-  小锤子和大爷的共同成长空间
+  Productized AI tools, workflow systems, and practical software experiments.
 -->
 
 <p align="center">
-  <img src="assets/profile-header.png" width="100%" alt="kdnsna profile header: AI tooling, personal systems, and useful products" />
+  <img src="assets/profile-header.png" width="100%" alt="kdnsna profile header: productized AI tools, workflow systems, and practical software" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/AI%20tooling-agent%20workflows-F59E0B?style=for-the-badge&labelColor=0B0F14" alt="AI tooling: agent workflows" />
-  <img src="https://img.shields.io/badge/personal%20systems-memory%20%2B%20automation-0EA5E9?style=for-the-badge&labelColor=0B0F14" alt="Personal systems: memory and automation" />
-  <img src="https://img.shields.io/badge/public%20repos-12-22C55E?style=for-the-badge&labelColor=0B0F14" alt="Public repositories: 12" />
-  <img src="https://img.shields.io/badge/ship%20often-calmly-EAB308?style=for-the-badge&labelColor=0B0F14" alt="Ship often, calmly" />
+  <img src="https://img.shields.io/badge/AI%20tooling-productized%20workflows-2563EB?style=for-the-badge&labelColor=0F172A" alt="AI tooling: productized workflows" />
+  <img src="https://img.shields.io/badge/workflow%20systems-local--first-0F766E?style=for-the-badge&labelColor=0F172A" alt="Workflow systems: local-first" />
+  <img src="https://img.shields.io/badge/output-editable%20deliverables-B45309?style=for-the-badge&labelColor=0F172A" alt="Output: editable deliverables" />
+  <img src="https://img.shields.io/badge/practice-small%20shippable%20tools-7C3AED?style=for-the-badge&labelColor=0F172A" alt="Practice: small shippable tools" />
 </p>
 
-<h3 align="center">把 AI、记忆系统和实用工具做成能长期陪跑的东西。</h3>
+<h3 align="center">Productized AI tools, workflow systems, and practical software experiments.</h3>
+
+<p align="center">
+  把 AI 工作流、办公交付和日常产品想法，做成可以反复使用、可以审查、可以继续迭代的工具。
+</p>
 
 <p align="center">
   <a href="https://kdnsna.cn">Blog</a>
   ·
   <a href="https://github.com/kdnsna?tab=repositories">Repositories</a>
   ·
-  <a href="https://github.com/kdnsna/kdnsna">Profile README</a>
+  <a href="https://github.com/kdnsna/ultimate-ppt-master-skill">PPT Workbench</a>
+  ·
+  <a href="https://kdnsna.github.io/formula-price-manager/">Formula Manager</a>
 </p>
 
 ---
 
-## About
+## Now Building / 近期在做
 
-I'm **Kdnsna**, a builder who likes turning fuzzy ideas into tools that can actually stay useful.
+I build compact, useful systems around AI-assisted production: local-first tools, editable outputs, review loops, and small product surfaces that can survive real daily work.
 
-Most of my work sits around three themes:
+我更关注「能落地」的工具：不是一次性 demo，而是带有数据结构、审查机制、交付物和维护路径的产品化工作台。
 
-- **AI tooling**: agents, skills, workflow glue, and better ways to work with coding assistants
-- **Personal systems**: memory, notes, automation, and long-running companion workflows
-- **Useful products**: small but complete tools, from dashboards to wedding navigation to presentation engines
-
-我是 **Kdnsna**。我喜欢把模糊想法拆成清晰系统，再一点点做成能长期使用的工具。<br>
-这里也是「小锤子 & 大爷」一起长出来的工作台。
-
----
-
-## Featured Builds
-
-| Project | What it is | Stack |
+| Track | What is shipping | Proof |
 | --- | --- | --- |
-| [ultimate-ppt-master-skill](https://github.com/kdnsna/ultimate-ppt-master-skill) | Editable PPTX and magazine-style web deck generation from source material | Python |
-| [wedding-navigator](https://github.com/kdnsna/wedding-navigator) | A wedding-day action guide with invitation, routes, RSVP, schedule, and blessing wall | Vue / uni-app |
-| [my-blog](https://github.com/kdnsna/my-blog) | The digital home for notes, projects, and the ongoing human + AI companion story | TypeScript |
-| [openclaw-dashboard](https://github.com/kdnsna/openclaw-dashboard) | Real-time dashboard for sessions, usage, cost tracking, and mobile monitoring | TypeScript |
-| [project-20260421-195043](https://github.com/kdnsna/project-20260421-195043) | A focused certificate-of-deposit calculator experience | TypeScript |
-| [cd-calculator](https://github.com/kdnsna/cd-calculator) | Lightweight static calculator experiment | HTML |
+| AI presentation production | `ultimate-ppt-master-skill` v4.3: source material to editable PPTX or magazine-style Web Decks, with rendered review and safe repair briefs | [Repo](https://github.com/kdnsna/ultimate-ppt-master-skill) · [Web Experience](https://kdnsna.github.io/ultimate-ppt-master-skill/) |
+| Business rule tooling | `formula-price-manager`: a local single-page manager for pricing formulas, monthly changes, annual rule versions, and Excel handoff | [Repo](https://github.com/kdnsna/formula-price-manager) · [Live App](https://kdnsna.github.io/formula-price-manager/) |
+| Wedding-day product systems | `wedding-navigator`: a WeChat mini-program for invitations, routes, schedules, RSVP, blessing wall, owner tools, diagnostics, and release checks | [Repo](https://github.com/kdnsna/wedding-navigator) |
+| Public writing and build notes | `my-blog`: a public home for project notes, writing experiments, and the durable parts of the build log | [Repo](https://github.com/kdnsna/my-blog) · [Blog](https://kdnsna.cn) |
 
 ---
 
-## Toolbox
+## Featured Builds / 代表作品
+
+| Project | What it solves | Stack |
+| --- | --- | --- |
+| [ultimate-ppt-master-skill](https://github.com/kdnsna/ultimate-ppt-master-skill) | Local-first AI presentation production for office-grade PPTX and browser decks, including DeckIR planning, review reports, and quality gates | Python / Node / Web |
+| [formula-price-manager](https://github.com/kdnsna/formula-price-manager) | Turns spreadsheet-based pricing rules into a maintainable browser tool with monthly suggestions, formula explanations, and exportable records | TypeScript / Vite / Excel |
+| [wedding-navigator](https://github.com/kdnsna/wedding-navigator) | Productized wedding-day navigation: guest actions, owner management, templates, CloudBase functions, diagnostics, and release readiness checks | Vue / uni-app / CloudBase |
+| [my-blog](https://github.com/kdnsna/my-blog) | Project notes, long-form writing, and a public index for experiments that should remain findable after the first build sprint | TypeScript |
+| [openclaw-dashboard](https://github.com/kdnsna/openclaw-dashboard) | Real-time monitoring surface for AI sessions, usage, cost tracking, and mobile PWA status checks | TypeScript |
+
+---
+
+## Toolbox / 工具箱
 
 ```text
-Languages      TypeScript / JavaScript / Python / Shell / Vue
-AI & agents    Codex / Claude / OpenClaw / WorkBuddy / MCP / custom skill workflows
-Frontend       Vue / Nuxt / Vite / uni-app / responsive product UI
-Automation     GitHub Actions / macOS local workflows / CLI-first utilities
-Interests      memory systems / developer experience / personal knowledge tools
+Languages        TypeScript / JavaScript / Python / Shell / Vue
+AI workflows     Codex / MCP / custom skills / local agents / review loops
+Frontend         Vue / Nuxt / Vite / uni-app / responsive product UI
+Automation       GitHub Actions / CLI utilities / macOS workflows / Excel handoff
+Product focus    local-first tools / editable outputs / office-grade delivery / small launches
 ```
 
 ---
 
-## Current Direction
+## Principles / 做事原则
 
-- Building AI workflows that remember context, survive real daily use, and stay pleasant to operate
-- Turning presentation, design, and delivery work into reusable skills instead of one-off labor
-- Keeping personal software small, clear, and shippable
-- Exploring companion-style systems where tools feel less like commands and more like capable collaborators
+- **Local-first when privacy matters**: keep source material and handoff files close to the user unless a workflow explicitly needs the cloud.
+- **Editable beats impressive**: real users need PPTX text, formulas, tables, notes, and exported records they can inspect and change.
+- **Review loops over one-shot output**: useful AI tools should leave evidence, reports, and safe next actions.
+- **Small tools should still feel complete**: a narrow app can have onboarding, diagnostics, exports, and clear operating boundaries.
 
 ---
 
-## Find Me
+## Find Me / 找到我
 
 - Blog: [kdnsna.cn](https://kdnsna.cn)
 - GitHub: [@kdnsna](https://github.com/kdnsna)
-- Companion workspace: 小锤子, WorkBuddy, OpenClaw, and a growing pile of careful experiments
+- Main build: [ultimate-ppt-master-skill](https://github.com/kdnsna/ultimate-ppt-master-skill)
+- Live tool: [formula-price-manager](https://kdnsna.github.io/formula-price-manager/)
 
 ---
 
 <p align="center">
-  <sub>Last refreshed: 2026-05-20</sub>
+  <sub>Last refreshed: 2026-06-12</sub>
 </p>
 
 <!-- profile-end -->
