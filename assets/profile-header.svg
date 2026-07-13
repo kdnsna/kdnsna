@@ -1,0 +1,41 @@
+<svg width="1600" height="500" viewBox="0 0 1600 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="500" rx="28" fill="#F7F8FC"/>
+  <path d="M0 0H1600V500H0V0Z" fill="url(#bg)"/>
+  <g opacity=".34" stroke="#AAB4C8">
+    <path d="M0 100H1600M0 200H1600M0 300H1600M0 400H1600"/>
+    <path d="M100 0V500M200 0V500M300 0V500M400 0V500M500 0V500M600 0V500M700 0V500M800 0V500M900 0V500M1000 0V500M1100 0V500M1200 0V500M1300 0V500M1400 0V500M1500 0V500"/>
+  </g>
+  <circle cx="1460" cy="-30" r="390" fill="#DDE7FF" opacity=".72"/>
+  <circle cx="1540" cy="510" r="350" fill="#DDF3EE" opacity=".7"/>
+  <circle cx="0" cy="50" r="330" fill="#E8E3FF" opacity=".72"/>
+
+  <text x="92" y="142" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="86" font-weight="800" letter-spacing="-4">kdnsna</text>
+  <text x="96" y="195" fill="#2563EB" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="22" font-weight="700" letter-spacing="2">PRACTICAL AI SYSTEMS / EDITABLE OUTPUTS / REVIEW LOOPS</text>
+  <text x="96" y="283" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="43" font-weight="750">From source material to shipped work.</text>
+  <text x="96" y="332" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="25">Building the layer between AI generation and trustworthy delivery.</text>
+
+  <g transform="translate(912 74)">
+    <rect width="590" height="342" rx="28" fill="white" fill-opacity=".91" stroke="#CBD5E1" stroke-width="2"/>
+    <circle cx="34" cy="34" r="7" fill="#EF4444"/><circle cx="58" cy="34" r="7" fill="#F59E0B"/><circle cx="82" cy="34" r="7" fill="#22C55E"/>
+    <text x="116" y="41" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17">build / inspect / ship</text>
+    <path d="M57 191H533" stroke="#CBD5E1" stroke-width="3"/>
+    <path d="M175 191L188 179M175 191L188 203M301 191L314 179M301 191L314 203M427 191L440 179M427 191L440 203" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+    <g font-family="Arial, Helvetica, sans-serif">
+      <rect x="35" y="112" width="132" height="158" rx="20" fill="#EEF2FF" stroke="#A5B4FC"/>
+      <text x="57" y="149" fill="#4338CA" font-size="14" font-weight="700">SOURCE</text><text x="57" y="187" fill="#172554" font-size="20" font-weight="700">brief</text><text x="57" y="216" fill="#475569" font-size="16">files + intent</text>
+      <rect x="183" y="112" width="132" height="158" rx="20" fill="#EFF6FF" stroke="#93C5FD"/>
+      <text x="205" y="149" fill="#1D4ED8" font-size="14" font-weight="700">BUILD</text><text x="205" y="187" fill="#172554" font-size="20" font-weight="700">editable</text><text x="205" y="216" fill="#475569" font-size="16">PPTX + web</text>
+      <rect x="331" y="112" width="132" height="158" rx="20" fill="#F5F3FF" stroke="#C4B5FD"/>
+      <text x="353" y="149" fill="#7C3AED" font-size="14" font-weight="700">INSPECT</text><text x="353" y="187" fill="#172554" font-size="20" font-weight="700">PPTLint</text><text x="353" y="216" fill="#475569" font-size="16">proof + fixes</text>
+      <rect x="479" y="112" width="76" height="158" rx="20" fill="#ECFDF5" stroke="#6EE7B7"/>
+      <text x="493" y="149" fill="#047857" font-size="13" font-weight="700">SHIP</text><text x="493" y="191" fill="#064E3B" font-size="27" font-weight="800">✓</text><text x="493" y="220" fill="#475569" font-size="14">ready</text>
+    </g>
+    <rect x="35" y="292" width="520" height="24" rx="12" fill="#E2E8F0"/>
+    <rect x="35" y="292" width="470" height="24" rx="12" fill="url(#bar)"/>
+    <text x="452" y="309" fill="white" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">DELIVERABLE</text>
+  </g>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="500" gradientUnits="userSpaceOnUse"><stop stop-color="#F8FAFC"/><stop offset="1" stop-color="#EEF4FF"/></linearGradient>
+    <linearGradient id="bar" x1="35" y1="304" x2="505" y2="304" gradientUnits="userSpaceOnUse"><stop stop-color="#2563EB"/><stop offset=".62" stop-color="#7C3AED"/><stop offset="1" stop-color="#059669"/></linearGradient>
+  </defs>
+</svg>
