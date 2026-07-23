@@ -3,17 +3,55 @@
 <!-- 打字机动画 -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=32&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&repeat=false&width=435&lines=kdnsna)](https://git.io/typing-svg)
 
-**把 AI 从"生成一下"推进到"真的能交付"**
+**让 AI 不只是「生成一下」，而是真的能把东西交出去。**
 
-Building trustworthy AI delivery systems with editable outputs, review loops, and evidence you can inspect.
+Between generation and delivery — 把一句话、一摞资料、一段思考，安顿成可以修改、可以审阅、可以交付的成果。
 
 <!-- 精选徽章行 -->
 [![Blog](https://img.shields.io/badge/Blog-kdnsna.cn-8B5CF6?style=flat-square&logo=ghost&logoColor=white)](https://kdnsna.cn)
+[![PPT Master](https://img.shields.io/badge/PPT_Master-v6.1.0-8B5CF6?style=flat-square&logo=readme&logoColor=white)](https://kdnsna.github.io/ultimate-ppt-master-skill/)
+[![WeChatPilot](https://img.shields.io/badge/WeChatPilot-Auto-8B5CF6?style=flat-square&logo=wechat&logoColor=white)](https://github.com/kdnsna/WeChatPilot)
 [![PPTLint](https://img.shields.io/badge/PPTLint-v1.3.0-8B5CF6?style=flat-square&logo=checkmarx&logoColor=white)](https://kdnsna.github.io/pptlint/)
-[![Ultimate PPT Master](https://img.shields.io/badge/PPT_Master-v6.1.0-8B5CF6?style=flat-square&logo=readme&logoColor=white)](https://kdnsna.github.io/ultimate-ppt-master-skill/)
 [![Visitors](https://komarev.com/ghpvc/?username=kdnsna&color=8B5CF6&style=flat-square&label=Profile+Views)](https://github.com/kdnsna)
 
 </div>
+
+---
+
+## 近期在做 · What I'm Building
+
+> 比起做了多少，更在意每一件能不能真的交出去。
+
+### 1 · 终极 PPT 大师 · Ultimate PPT Master
+一句话需求，加上一摞零散资料，就能安顿成一份拿得出手的演示。
+不是生成完就跑——而是能改、能审、能留痕，守得住真实办公场景里的成稿。
+
+`Python · Node.js · Web` · [去看看 →](https://github.com/kdnsna/ultimate-ppt-master-skill)
+
+### 2 · WeChatPilot
+让微信变成可被编排的入口：消息、事件、工作流，安静地在后台把重复的事做完。
+守住边界的自动化——只做你点头的事，明文拒绝远程 Shell。
+
+`Python · Automation` · [去看看 →](https://github.com/kdnsna/WeChatPilot)
+
+### 3 · pptlint
+把 PPT 交出去之前，先替你检查一遍：链接、引用、残留、版本。
+像付印前的最后一次校对，也是改完之后的复检。
+
+`Python · GitHub Actions` · [去看看 →](https://kdnsna.github.io/pptlint/)
+
+### 4 · NarrativeOS
+我现在大部分时间，泡在这里。
+一个为长文写作而生的系统——把上下文、证据与版本，整理得像一座可以来回穿梭的图书馆。
+（进行中 · 暂未公开）
+
+`TypeScript · PostgreSQL`
+
+---
+
+## 也折腾过 · Also
+
+[Wedding Navigator](https://github.com/kdnsna/wedding-navigator) · [Formula Price Manager](https://github.com/kdnsna/formula-price-manager) · [My Blog](https://github.com/kdnsna/my-blog)
 
 ---
 
@@ -41,23 +79,11 @@ Building trustworthy AI delivery systems with editable outputs, review loops, an
 
 ---
 
-## Selected Systems / 代表作品
-
-| Project | Product idea | Built with |
-|:---|:---|:---|
-| [PPTLint](https://github.com/kdnsna/pptlint) | 为 PPT/PPTX 建立独立、可复现的交付前质量检查 | Python · HTML · GitHub Actions |
-| [Ultimate PPT Master](https://github.com/kdnsna/ultimate-ppt-master-skill) | 把一句话需求、本地资料和审阅闭环组织成演示文稿生产工作台 | Python · Node.js · Web |
-| [Wedding Navigator](https://github.com/kdnsna/wedding-navigator) | 从请柬、路线、日程、回执到主人端管理的婚礼全流程小程序 | Vue · uni-app · CloudBase |
-| [Formula Price Manager](https://github.com/kdnsna/formula-price-manager) | 把散落在表格里的定价公式、月度变更和版本记录变成可维护工具 | TypeScript · Vite · Excel |
-| [My Blog](https://github.com/kdnsna/my-blog) | 让项目笔记、长期写作和公开构建记录在冲刺结束后仍然可查 | TypeScript |
-
----
-
 ## How I Build / 我的工作方式
 
 - **Local-first by default** — 涉及真实业务资料时，优先让源文件和交付物留在用户可控环境里。
 - **Editable beats impressive** — 不只展示结果；文本、表格、公式和结构都应该能继续修改。
-- **Evidence before confidence** — 用渲染结果、检查报告、测试和发布记录说明"为什么可以交"。
+- **Evidence before confidence** — 用渲染结果、检查报告、测试和发布记录说明「为什么可以交」。
 - **Small tools, complete loops** — 再窄的工具，也应该有清晰入口、错误边界、诊断与交接路径。
 
 ---
