@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
+  <title id="title">Kdnsna — Build in silence. Ship with intent.</title>
+  <desc id="desc">A midnight-black editorial banner with champagne typography, violet light, and a mysterious orbital eclipse.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050507"/>
+      <stop offset="0.55" stop-color="#09090f"/>
+      <stop offset="1" stop-color="#050507"/>
+    </linearGradient>
+    <radialGradient id="violetHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#76658f" stop-opacity="0.32"/>
+      <stop offset="0.42" stop-color="#4d405f" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#09090f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="goldHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#c5b487" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#c5b487" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f0e4bd" stop-opacity="0.92"/>
+      <stop offset="0.32" stop-color="#a89770" stop-opacity="0.34"/>
+      <stop offset="0.7" stop-color="#6f6189" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#6f6189" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sphere" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16141d"/>
+      <stop offset="0.55" stop-color="#09090d"/>
+      <stop offset="1" stop-color="#030304"/>
+    </linearGradient>
+    <linearGradient id="hairline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c5b487" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#c5b487" stop-opacity="0.48"/>
+      <stop offset="1" stop-color="#c5b487" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" fill="none" stroke="#ffffff" stroke-opacity="0.025" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <filter id="starGlow" x="-300%" y="-300%" width="700%" height="700%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <clipPath id="frameClip">
+      <rect width="1600" height="520" rx="2"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frameClip)">
+    <rect width="1600" height="520" fill="url(#bg)"/>
+    <rect width="1600" height="520" fill="url(#grid)"/>
+    <ellipse cx="1270" cy="260" rx="480" ry="410" fill="url(#violetHalo)"/>
+    <ellipse cx="1180" cy="205" rx="250" ry="230" fill="url(#goldHalo)"/>
+
+    <rect x="32" y="32" width="1536" height="456" fill="none" stroke="#d8cba5" stroke-opacity="0.12"/>
+    <path d="M32 82V32H82 M1518 32H1568V82 M32 438V488H82 M1518 488H1568V438" fill="none" stroke="#d8cba5" stroke-opacity="0.42"/>
+    <rect x="420" y="31" width="760" height="1" fill="url(#hairline)"/>
+    <rect x="420" y="488" width="760" height="1" fill="url(#hairline)"/>
+
+    <!-- Orbital system -->
+    <g transform="translate(1260 260)">
+      <circle r="202" fill="none" stroke="#a89770" stroke-opacity="0.13"/>
+      <circle r="174" fill="none" stroke="#a89770" stroke-opacity="0.22" stroke-dasharray="1 10" stroke-linecap="round"/>
+      <ellipse rx="250" ry="104" transform="rotate(-23)" fill="none" stroke="#9a8ba9" stroke-opacity="0.25"/>
+      <ellipse rx="294" ry="126" transform="rotate(-23)" fill="none" stroke="#9a8ba9" stroke-opacity="0.08"/>
+      <circle r="146" fill="#8b769f" opacity="0.12" filter="url(#softGlow)"/>
+      <circle r="137" fill="url(#sphere)" stroke="url(#rim)" stroke-width="1.5"/>
+      <path d="M-111 -80A137 137 0 0 1 40 -131" fill="none" stroke="#eadbb0" stroke-opacity="0.58" stroke-width="2" stroke-linecap="round"/>
+      <path d="M-134 -30A137 137 0 0 1 -116 -72" fill="none" stroke="#eadbb0" stroke-opacity="0.25" stroke-width="1"/>
+      <circle cx="-211" cy="86" r="4" fill="#cbbb92"/>
+      <circle cx="-211" cy="86" r="10" fill="#cbbb92" opacity="0.3" filter="url(#starGlow)"/>
+      <circle cx="168" cy="-109" r="2.5" fill="#b4a3c8"/>
+      <path d="M-2 -215V-203 M-8 -209H4" stroke="#cbbd99" stroke-opacity="0.55"/>
+      <path d="M214 42V54 M208 48H220" stroke="#cbbd99" stroke-opacity="0.42"/>
+    </g>
+
+    <!-- Stars -->
+    <g fill="#d8cba5">
+      <circle cx="1020" cy="96" r="1.2" opacity="0.52"/>
+      <circle cx="1110" cy="426" r="1.4" opacity="0.45"/>
+      <circle cx="1452" cy="114" r="1.2" opacity="0.56"/>
+      <circle cx="1500" cy="360" r="1.6" opacity="0.36"/>
+      <circle cx="914" cy="282" r="1" opacity="0.38"/>
+      <circle cx="1390" cy="448" r="1" opacity="0.4"/>
+      <circle cx="1080" cy="56" r="0.8" opacity="0.44"/>
+    </g>
+
+    <!-- Editorial typography -->
+    <g font-family="Inter, Helvetica Neue, Arial, sans-serif">
+      <text x="112" y="100" fill="#b9aa84" font-size="15" font-weight="500" letter-spacing="5">KDNSNA / INDEPENDENT BUILDER</text>
+      <rect x="112" y="128" width="54" height="2" fill="#b9aa84"/>
+      <text x="108" y="252" fill="#f0eee8" font-size="72" font-weight="500" letter-spacing="1">BUILD IN SILENCE.</text>
+      <text x="108" y="340" fill="#cbbb92" font-family="Georgia, Times New Roman, serif" font-size="68" font-style="italic" letter-spacing="-1">Ship with intent.</text>
+      <text x="112" y="410" fill="#8d8995" font-size="14" font-weight="400" letter-spacing="3.2">AI SYSTEMS · PRODUCTIZED WORKFLOWS · DIGITAL CRAFT</text>
+    </g>
+
+    <g font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" letter-spacing="2" fill="#716d78">
+      <text x="112" y="462">EST. 2018</text>
+      <text x="1400" y="462">36.65° N</text>
+    </g>
+  </g>
+</svg>
